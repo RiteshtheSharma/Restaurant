@@ -16,6 +16,7 @@
     "vite-plugin-inspect": "^0.8.1"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "path": "^0.12.7"
   }
 }
