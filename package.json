@@ -14,5 +14,8 @@
     "vite-plugin-checker": "^0.6.2",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-inspect": "^0.8.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
