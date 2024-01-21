@@ -1,6 +1,8 @@
 
 import { navigationCreator } from "./DomManipulationUtil";
 
+import 'normalize.css';
+import './style.css'
 
 const headerElement = navigationCreator({
   "Home":'/',
