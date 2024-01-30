@@ -19,17 +19,20 @@ else if(location.href.indexOf('menu')>-1)
 menuListElement.classList.add('tabbed') ;
 else homeListElement.classList.add('tabbed') ;
 homeListElement.addEventListener('click',(e)=>{
+  location.href = `${window.location.origin}`
   homeListElement.className = 'tabbed';
   contactListElement.className = '' ;
   menuListElement.className = '' ;
 })
 contactListElement.addEventListener('click',(e)=>{
+  location.href = `${window.location.origin}/contact`
   contactListElement.className = 'tabbed' ;
   homeListElement.className = '' ;
   menuListElement.className = '' ;
 })
 menuListElement.addEventListener('click',(e)=>{
-  menuListElement.target.className = 'tabbed' ;
+  location.href = `${window.location.origin}/menu`
+  menuListElement.className = 'tabbed' ;
   homeListElement.className = '' ;
   contactListElement.className = '' ;
 })
