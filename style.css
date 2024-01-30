@@ -83,11 +83,12 @@ header ul li button {
   position: absolute;
   content: '';
   display: block;
-  width: 106px;
+  width: 127px;
   height: 16px;
   background: var(--grass-url) no-repeat center top;
   background-size: contain;
   top: 100%;
+  left:-11px ;
 }
 
 footer ul {
