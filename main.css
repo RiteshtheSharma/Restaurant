@@ -1,0 +1,7 @@
+main section{
+    background-color: var(--creamy-color);
+    margin:30px auto ;
+    width: 80vw;
+    border-radius: 20px;
+   
+}
