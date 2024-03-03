@@ -1,0 +1,5 @@
+import{C as a,h as d,f as i}from"./footer-MydfZl6n.js";const t=document.createElement("main"),e=document.createElement("section");e.classList.add("flex");e.classList.add("c");e.classList.add("pos_rel");e.appendChild(a.header("carrot","h1","Vegan 's Meals"));const n=document.createElement("div");n.classList.add("rabbit_icon");e.appendChild(n);e.appendChild(a.info("The White Rabbit","bottom",[` Vegan's Meal has the best meals! The atmosphere and customer
+service make you feel like you are sitting in the middle of
+the woods, eating like a rabbit! This is exactly the kind of
+place that I like to return to again and again.`],null));e.appendChild(a.info("Hours","top",[" Sunday: 8am - 8pm","Monday: 6am - 6pm","Tuesday: 6am - 6pm","Wednesday: 6am - 6pm","Thursday: 6am - 10pm","Friday: 6am - 10pm","Saturday: 8am - 10pm"],null));e.appendChild(a.info("Location","top",[`675 North Buena Vista Drive
+      Lake Buena Vista, Florida 32830`],null));t.appendChild(e);const o=t;document.getElementById("app").appendChild(d);document.getElementById("app").appendChild(o);document.getElementById("app").appendChild(i);
