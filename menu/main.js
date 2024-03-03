@@ -1,5 +1,15 @@
-import '../main.css'
-import {CardDomCreator} from '../DomManipulationUtil'
+import '../main.css';
+import {CardDomCreator} from '../DomManipulationUtil';
+import podigreePhoto from '../src/assets/Porridge.webp';
+import idliPhoto from "../src/assets/idli_dosa.jpg"; 
+import bagelPhoto from "../src/assets/bagel.webp";
+import sandWitchPhoto from "../src/assets/sandwich.jpeg";
+import french_toastPhoto from "../src/assets/french_toast.jpeg"; 
+import fruitPhoto from "../src/assets/fruit.jpg"; 
+import PanCakePhoto from '../src/assets/pancake.jpeg'
+import toastAndJamPhoto from "../src/assets/toast_and_jam.jpg";
+import CoffeePhoto from "../src/assets/coffee.jpeg"; 
+import blackTeaPhoto from "../src/assets/Black_Tea.jpg";
 const mainElem = document.createElement('main');
 const SectionElem = document.createElement("section");
 SectionElem.classList.add("flex");
@@ -21,7 +31,7 @@ SectionElem.appendChild(
     {
       cost:2,
       imgName:"black tea",
-      imgSrc :"../src/assets/Black_Tea.jpg"
+      imgSrc :blackTeaPhoto
     }
   )
 );
@@ -35,7 +45,7 @@ SectionElem.appendChild(
     {
       cost:1,
       imgName:"Coffee",
-      imgSrc :"../src/assets/coffee.jpeg"
+      imgSrc :CoffeePhoto
     }
   )
 );
@@ -52,7 +62,7 @@ SectionElem.appendChild(
     {
       cost:2,
       imgName:"toast and jam",
-      imgSrc :"../src/assets/toast_and_jam.jpg"
+      imgSrc :toastAndJamPhoto
     }
   )
 );
@@ -66,7 +76,7 @@ SectionElem.appendChild(
     {
       cost:1,
       imgName:"Fresh Fruit",
-      imgSrc :"../src/assets/fruit.jpg"
+      imgSrc :fruitPhoto
     }
   )
 );
@@ -85,7 +95,7 @@ SectionElem.appendChild(
     {
       cost:4,
       imgName:"Pancakes",
-      imgSrc :"../src/assets/fruit.jpg"
+      imgSrc :PanCakePhoto
     }
   )
 );
@@ -99,7 +109,7 @@ SectionElem.appendChild(
     {
       cost:3,
       imgName:"French Toast",
-      imgSrc :"../src/assets/french_toast.jpeg"
+      imgSrc :french_toastPhoto
     }
   )
 );
@@ -114,7 +124,7 @@ SectionElem.appendChild(
     {
       cost:5,
       imgName:"Sandwitch",
-      imgSrc :"../src/assets/sandwich.jpeg"
+      imgSrc :sandWitchPhoto
     }
   )
 );
@@ -129,7 +139,7 @@ SectionElem.appendChild(
     {
       cost:3,
       imgName:"Bagel",
-      imgSrc :"../src/assets/bagel.webp"
+      imgSrc :bagelPhoto
     }
   )
 );
@@ -144,7 +154,7 @@ SectionElem.appendChild(
     {
       cost:3,
       imgName:"Idli Dosa",
-      imgSrc :"../src/assets/idli_dosa.jpg"
+      imgSrc :idliPhoto
     }
   )
 );
@@ -160,16 +170,13 @@ SectionElem.appendChild(
     {
       cost:1,
       imgName:"Oliver twist 's Porridge",
-      imgSrc :"../src/assets/Porridge.webp"
+      imgSrc :podigreePhoto
     }
   )
 );
 
 mainElem.appendChild(SectionElem);
-document.getElementById(
-    "app"
-  ).appendChild(
-    mainElem 
-  ) ;
+
+export const MenuElem = mainElem ;
 
     

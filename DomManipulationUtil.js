@@ -1,6 +1,6 @@
 export function navigationCreator(objArr, Tag, buttonNeeded) {
   const headerElement = document.createElement(Tag);
-  console.log(Tag, "in navigationCreator");
+
   const navElement = document.createElement("nav");
   const ulElement = document.createElement("ul");
   for (const [navText, navLink] of Object.entries(objArr)) {
@@ -11,8 +11,11 @@ export function navigationCreator(objArr, Tag, buttonNeeded) {
       anchorLink.appendChild(document.createTextNode(navText));
       if (buttonNeeded) {
         const button = document.createElement("button");
+        
         button.appendChild(anchorLink);
         listElement.appendChild(button);
+
+        
       } else listElement.appendChild(anchorLink);
     } else {
       listElement.appendChild(document.createTextNode(navText));

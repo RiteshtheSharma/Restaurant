@@ -48,8 +48,4 @@ SectionElem.appendChild(
 );
 
 mainElem.appendChild(SectionElem);
-document.getElementById(
-    "app"
-  ).appendChild(
-    mainElem
-  ) 
+export const ContactElem = mainElem;

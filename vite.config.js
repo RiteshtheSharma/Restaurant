@@ -5,12 +5,13 @@ import { resolve } from 'path'
 export default {
     plugins: [Inspect()],
     base:'/vegan_meals/',
+ 
     build: {
       rollupOptions: {
         input: {
-          main: resolve(__dirname, 'index.html'),
-          menu: resolve(__dirname, 'menu/index.html'),
-          contact: resolve(__dirname, 'contact/index.html')
+          main: 'index.html',
+          menu:  'menu/index.html',
+          contact:  'contact/index.html'
         }
       }
     }
