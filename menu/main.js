@@ -1,15 +1,15 @@
 import '../main.css';
 import {CardDomCreator} from '../DomManipulationUtil';
-import podigreePhoto from '../src/assets/Porridge.webp';
-import idliPhoto from "../src/assets/idli_dosa.jpg"; 
-import bagelPhoto from "../src/assets/bagel.webp";
-import sandWitchPhoto from "../src/assets/sandwich.jpeg";
-import french_toastPhoto from "../src/assets/french_toast.jpeg"; 
-import fruitPhoto from "../src/assets/fruit.jpg"; 
-import PanCakePhoto from '../src/assets/pancake.jpeg'
-import toastAndJamPhoto from "../src/assets/toast_and_jam.jpg";
-import CoffeePhoto from "../src/assets/coffee.jpeg"; 
-import blackTeaPhoto from "../src/assets/Black_Tea.jpg";
+import podigreePhoto from '/assets/Porridge.webp';
+import idliPhoto from "/assets/idli_dosa.jpg"; 
+import bagelPhoto from "/assets/bagel.webp";
+import sandWitchPhoto from "/assets/sandwich.jpeg";
+import french_toastPhoto from "/assets/french_toast.jpeg"; 
+import fruitPhoto from "/assets/fruit.jpg"; 
+import PanCakePhoto from '/assets/pancake.jpeg'
+import toastAndJamPhoto from "/assets/toast_and_jam.jpg";
+import CoffeePhoto from "/assets/coffee.jpeg"; 
+import blackTeaPhoto from "/assets/Black_Tea.jpg";
 const mainElem = document.createElement('main');
 const SectionElem = document.createElement("section");
 SectionElem.classList.add("flex");

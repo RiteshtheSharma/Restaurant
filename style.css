@@ -1,16 +1,16 @@
 
 :root{
   --creamy-color : burlywood;
-  --main-bg-img-url : url('src/assets/mainBackground.jpeg') ;
-  --grass-url : url('src/assets/grass.png') ;
-  --carrot-url : url('src/assets/carrot.png');
-  --rabbit-url : url('src/assets/rabbit.png');
+  --main-bg-img-url : url('/assets/mainBackground.jpeg') ;
+  --grass-url : url('/assets/grass.png') ;
+  --carrot-url : url('/assets/carrot.png');
+  --rabbit-url : url('/assets/rabbit.png');
   --btn-color: #1c5e1d ;
   --card-bg-color:#f8f4ce;
 }
 @font-face {
   font-family: 'Yasmeen';
-  src: url('src/fonts/Yasmen.ttf');
+  src: url('/fonts/Yasmen.ttf');
 }
 /* ------------------------------------------------general styling -------------------------------------------------------------------------------------------------*/
 body{
