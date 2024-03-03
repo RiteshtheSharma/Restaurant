@@ -4,7 +4,7 @@ import { resolve } from 'path'
 
 export default {
     plugins: [Inspect()],
-    base:'/vegan_meals'
+    base:'/vegan_meals',
     build: {
       rollupOptions: {
         input: {
