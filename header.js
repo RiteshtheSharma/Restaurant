@@ -6,8 +6,8 @@ import './style.css'
 
 export const headerElement = navigationCreator({
   "Home":'/',
-  "Contact" : '/vegan_meals/contact/',
-  "Menu" : '/vegan_meals/menu/'
+  "Contact" : '/Restaurant/contact/',
+  "Menu" : '/Restaurant/menu/'
 },'header',true) ;
 
 const homeListElement =  headerElement.querySelector('li');
@@ -19,19 +19,19 @@ else if(location.href.indexOf('menu')>-1)
 menuListElement.classList.add('tabbed') ;
 else homeListElement.classList.add('tabbed') ;
 homeListElement.addEventListener('click',(e)=>{
-  location.href = `${window.location.origin}/`
+  location.href = `/`
   homeListElement.className = 'tabbed';
   contactListElement.className = '' ;
   menuListElement.className = '' ;
 })
 contactListElement.addEventListener('click',(e)=>{
-  location.href = `${window.location.origin}/vegan_meals/contact/`
+  location.href = `/Restaurant/contact/`
   contactListElement.className = 'tabbed' ;
   homeListElement.className = '' ;
   menuListElement.className = '' ;
 })
 menuListElement.addEventListener('click',(e)=>{
-  location.href = `${window.location.origin}/vegan_meals/menu/`
+  location.href = `/Restaurant/menu/`
   menuListElement.className = 'tabbed' ;
   homeListElement.className = '' ;
   contactListElement.className = '' ;
