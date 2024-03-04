@@ -5,7 +5,7 @@ import 'normalize.css';
 import './style.css'
 
 export const headerElement = navigationCreator({
-  "Home":'/',
+  "Home":'/Restaurant/',
   "Contact" : '/Restaurant/contact/',
   "Menu" : '/Restaurant/menu/'
 },'header',true) ;
